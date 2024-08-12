@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 10px;
+    background-color: rgb(129, 211, 156);
+}
+
+.grid-item {
+    background-color: rgb(153, 229, 191);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
